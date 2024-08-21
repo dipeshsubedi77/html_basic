@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family:sans-serif;
+}
+.navbar{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.subnav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+li{
+    gap: 7px;
+}
+.logo{
+    margin-left: -110px;
+    padding-top: 20px;
+    margin-bottom:-16px;
+    font-size:30px;
+    
+    
+}
+button{
+   padding: 5px;
+   background-color: rgb(231, 12, 12);
+   border-radius:19%;
+   border: none;
+   gap: 20px;
+}
+.button{
+    margin-left: 20px;
+}
